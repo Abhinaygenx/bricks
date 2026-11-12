@@ -1,6 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
+    { "name": "vabani-dev", "runtimeExecutable": "npx", "runtimeArgs": ["next", "dev", "-p", "3000"], "port": 3000 },
     { "name": "vabani-prod", "runtimeExecutable": "npx", "runtimeArgs": ["next", "start", "-p", "3100"], "port": 3100 }
   ]
 }
