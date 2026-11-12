@@ -1,0 +1,20 @@
+# Minimal Supabase CLI config (supabase start / supabase db push)
+project_id = "vabani-bricks"
+
+[api]
+schemas = ["public"]
+max_rows = 1000
+
+[auth]
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000/auth/callback"]
+# Staff accounts are created by the owner inside the app. Public sign-up stays off.
+enable_signup = false
+
+[auth.email]
+enable_signup = false
+enable_confirmations = false
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]

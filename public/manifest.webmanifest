@@ -1,0 +1,23 @@
+{
+  "name": "Vabani Bricks",
+  "short_name": "Vabani",
+  "description": "Brick manufacturing & supply - billing, stock, credit and payments",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8F7F5",
+  "theme_color": "#A63D2F",
+  "lang": "en-IN",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/pwa-icon/192", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-icon/512", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/pwa-icon/512?maskable=1", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "New invoice", "url": "/staff/new-invoice", "icons": [{ "src": "/pwa-icon/192", "sizes": "192x192" }] },
+    { "name": "Record payment", "url": "/staff/payments", "icons": [{ "src": "/pwa-icon/192", "sizes": "192x192" }] }
+  ]
+}
